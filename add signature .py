@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-for file in os.listdir("/Users/凱鈞"):
+for file in os.listdir("/Users/jun"):
     if file.endswith(".jpg"):
         background = Image.open(file)
         imageA = background.convert('RGBA')

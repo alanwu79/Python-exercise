@@ -1,3 +1,8 @@
+
+
+在圖片上印logo圖
+
+'''       
 from PIL import Image
 import os
 
@@ -20,3 +25,4 @@ for file in os.listdir("/Users/jun"):
         rename = file.split('.')[0]
         #print (rename)
         background.save( rename+"1.jpg" )
+'''         

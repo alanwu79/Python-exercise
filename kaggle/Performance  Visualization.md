@@ -10,6 +10,6 @@ import seaborn as sns
 
 Reading the data
 
-```df = pd.read_csv('StudentsPerformance.csv')
+```df = pd.read_csv('https://github.com/alanwu79/Python-exercise/blob/master/kaggle/StudentsPerformance.csv')
 ```
 
